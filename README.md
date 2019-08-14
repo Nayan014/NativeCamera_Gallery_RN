@@ -1,11 +1,13 @@
-# Native Camera/Gallery [Link]
+# Native Camera/Gallery [With Link]
 - Take Image from camera [Native] 
 - Pic image from gallary [Native]
 
+# Image Preview
+- Image Preview
+- Pinch to zoom
 
 # Issue
 - No MultiSelect
-
 
 # Plugins
 

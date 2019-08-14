@@ -3,6 +3,8 @@ import { Text, View, Button, Image, TouchableOpacity } from 'react-native';
 
 import NativeCamera from './Components/NativeCamera';
 
+import ImagePreview from './Components/ImagePreview';
+
 export default class App extends Component {
 
   state = {
@@ -29,7 +31,7 @@ export default class App extends Component {
 
       return this.state.imageArray.map((v, index) => {
         return (
-          <View style={{ padding: 10 }}>
+          <View key={index} style={{ padding: 10 }}>
             <TouchableOpacity onPress={() => {
               this.setState({
                 isImagePriview: true,
